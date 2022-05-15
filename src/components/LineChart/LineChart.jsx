@@ -49,11 +49,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
     };
 
     const options = {
-        elements: {
-            point: {
-                radius: 0
-            }
-        },
+        responsive: true,
         scales: {
             y: {
                 beginAtZero: false
