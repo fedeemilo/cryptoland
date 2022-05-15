@@ -49,14 +49,15 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
     };
 
     const options = {
+        elements: {
+            point: {
+                radius: 0
+            }
+        },
         scales: {
-            yAxes: [
-                {
-                    ticks: {
-                        beginAtZero: false
-                    }
-                }
-            ]
+            y: {
+                beginAtZero: false
+            }
         }
     };
 
