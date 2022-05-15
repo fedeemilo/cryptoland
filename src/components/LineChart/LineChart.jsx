@@ -50,10 +50,10 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
 
     const options = {
         scales: {
-            y: [
+            yAxes: [
                 {
                     ticks: {
-                        beginAtZero: true
+                        beginAtZero: false
                     }
                 }
             ]
